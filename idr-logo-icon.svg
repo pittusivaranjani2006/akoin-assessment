@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+  <defs>
+    <linearGradient id="faceTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B1A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E85000;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="faceLeft" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1A1A1A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2D2D2D;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="faceRight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#333333;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4A4A4A;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Isometric cube -->
+  <!-- Top face -->
+  <polygon points="40,8 68,24 40,40 12,24" fill="url(#faceTop)" />
+  <!-- Left face -->
+  <polygon points="12,24 40,40 40,72 12,56" fill="url(#faceLeft)" />
+  <!-- Right face -->
+  <polygon points="68,24 40,40 40,72 68,56" fill="url(#faceRight)" />
+  <!-- Shield overlay / inner accent on top face -->
+  <polygon points="40,14 62,26 40,38 18,26" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+  <!-- Vertical edge line highlight -->
+  <line x1="40" y1="40" x2="40" y2="72" stroke="rgba(255,107,26,0.4)" stroke-width="1.5"/>
+  <!-- Dot accent top -->
+  <circle cx="40" cy="8" r="2.5" fill="white" opacity="0.9"/>
+</svg>
